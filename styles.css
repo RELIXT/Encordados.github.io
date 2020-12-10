@@ -1,12 +1,25 @@
 body{
    text-align: center;
-   font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(252, 255, 207);
 }
 header{
    border:none;
-   background-color: rgba(0, 255, 13, 0.842);
+   background-color: rgba(126, 252, 0, 0.808);
    text-align: center;
+   margin: none;
+   padding: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+   background-color: rgba(126, 252, 0, 0.808);
+   margin: none;
+   padding: none;
+   border: thick dotted;
+}
+.navegacion:hover{
+   color: rgb(0, 2, 119);
+   f
 }
 section{
    border: 1px solid black;
@@ -19,9 +32,18 @@ article{
 }
 aside{
    border: 1px solid red;
-   
+   float: right;
 }
 
 footer{
+color: black;
+}
 
+img{
+   width: 500px;
+   height: 300px;
+   float: inline-start;
+}
+p{
+   margin: aut
 }
