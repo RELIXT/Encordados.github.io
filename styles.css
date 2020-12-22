@@ -16,34 +16,86 @@ nav{
    margin: none;
    padding: none;
    border: thick dotted;
+   font-size: 20px;
+   text-transform: capitalize;
+   display: block;
 }
 .navegacion:hover{
-   color: rgb(0, 2, 119);
-   f
+   color: aqua;
+   text-decoration: none;
 }
 section{
-   border: 1px solid black;
-   padding: 30px;
-   margin: 20px;
+   padding: none;
+   margin-left: 200p;
+   margin-right: 200p;
+   margin: auto;
 }
 article{
-   margin:20px;
-   border: 1px solid black;
+   margin: auto;
+   padding-right: 120px;
+   padding-left: 120px;
 }
-aside{
-   border: 1px solid red;
-   float: right;
-}
-
 footer{
-color: black;
-}
-
-img{
-   width: 500px;
-   height: 300px;
-   float: inline-start;
+   color:white;
+   background-color: rgb(34, 32, 32);
+   height:150px;
+   max-width: none;
 }
 p{
-   margin: aut
+   text-align: justify;
+   min-width: 200px;
+   flex-grow: 1;
+}
+img{
+   width: 650px;
+   height: 300px;
+   float: inline-start;
+   margin: auto;
+   padding: auto;
+   border: 3px solid black;
+   object-fit: cover;
+}
+#shadow{
+   text-align: center;
+   font-size: large;
+   border: none;
+   padding: none;
+   margin: none;
+   color: red;
+   font-variant: small-caps;
+}
+.final{
+   position: absolute;
+   left: 330px;
+   height: max-content;
+   width: max-content;
+   text-align: right;
+}
+footer ul li{
+   text-decoration: none;
+   list-style: none;
+}
+.links{
+   width: 135px;
+   color: white;
+   border-bottom: 2px solid lightslategray;
+}
+.links:hover{
+   background-color: wheat;
+   padding: 5px;
+   text-decoration: none;
+   color: tomato;
+}
+#Servicio{
+   text-align: center;
+   font-size: 20px;
+}
+#Servicio li{
+   font-size: 25px;
+   display: inline-block;
+   color:rgb(38, 0, 255);
+   text-shadow: 1px 1px black;
+}
+div nav a{
+   color: rgb(0, 0, 0);
 }
